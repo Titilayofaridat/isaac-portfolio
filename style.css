@@ -96,7 +96,7 @@ span {
 .work img{
     width: 50%;
     border-radius: 10px;
-    display: block;
+    display: flex;
     /* transition: transform 0.5s; */
 }
 /* .layer{
@@ -124,11 +124,22 @@ span {
 
 }
 
-.float-left {
+/* .float-left {
     float: left;
     margin-right: 10px;
 
+} */
+.image-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
 }
+/* .image-row img {
+    height: 150px;
+    width: auto;
+    display: block;
+
+} */
 
  /* About */
 
