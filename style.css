@@ -71,9 +71,6 @@ nav ul li a:hover::after{
     font-weight: none;
     font-size: 15px;
 }
-span {
-    color: #2b04bb;
-}
 
 
 /*---------portfolio-------*/
@@ -97,26 +94,9 @@ span {
     width: 50%;
     border-radius: 10px;
     display: flex;
-    /* transition: transform 0.5s; */
+    
 }
-/* .layer{
-    width: 50%;
-    height: 0%;
-    background: linear-gradient(rgba(0,0,0,0.6), #fff);
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 40px;
-    text-align: center;
-    font-size: 14px;
-    transition: height 0.5s;
-} */
+
 .layer h3{
     font-weight: 600;
     margin-bottom: 20px;
@@ -124,23 +104,19 @@ span {
 
 }
 
-/* .float-left {
-    float: left;
-    margin-right: 10px;
 
-} */
 .image-row {
     display: flex;
     gap: 8px;
     align-items: center;
 }
-/* .image-row img {
-    height: 150px;
-    width: auto;
+
+.work img{
+    width: 100%;
+    border-radius: 10px;
     display: block;
 
-} */
-
+}
  /* About */
 
  
